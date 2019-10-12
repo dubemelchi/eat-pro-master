@@ -1,4 +1,7 @@
-function Product() {
+import axios from 'axios';
+
+function Product({ product }) {
+  console.log({ product });
   return <>product</>;
 }
 
