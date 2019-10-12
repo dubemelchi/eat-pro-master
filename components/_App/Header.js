@@ -16,7 +16,7 @@ function Header() {
   }
 
   return (
-    <Menu fluid id='menu' inverted>
+    <Menu stackable fluid id='menu' inverted>
       <Container text>
         <Link href='/'>
           <Menu.Item header active={isActive('/')}>
@@ -25,7 +25,7 @@ function Header() {
               src='/static/logo.svg'
               style={{ marginRight: '1em' }}
             />
-            Eat-2-Fit
+            ReactReserve
           </Menu.Item>
         </Link>
 
